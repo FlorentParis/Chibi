@@ -1,0 +1,63 @@
+/* General */
+@import "css/fonts.css";
+body{
+    font-family: 'Roboto';
+}
+.container{
+    margin: 0 90px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 20px;
+}
+/* HEADER */
+header .container{
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+header ul{
+    grid-column: 1/10;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 55vw;
+}
+#relogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#research{
+    grid-column: 13/14;
+    height: 30px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+#profil{
+    grid-column: 16;
+    height: 60px;
+    width: 60px;
+}
+#profil img{
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+/* HOME */
+#home{
+    z-index: -1;
+    background-image: url(assets/img/anime-samurai-girl-katana-forest-bamboo-torii-warrior-gloves-armor-ponytail-31087.jpeg);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}

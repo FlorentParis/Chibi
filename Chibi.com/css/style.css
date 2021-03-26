@@ -1,0 +1,38 @@
+/* General */
+body{
+    font-family: 'Roboto';
+}
+.container{
+    padding: 0 90px;
+}
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 767px;
+}
+#research{
+    height: 30px;
+    width: 180px;
+}
+#profil{
+    height: 60px;
+    width: 60px;
+}
+#profil img{
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
