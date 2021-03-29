@@ -4,17 +4,17 @@
 body{
     font-family: 'Roboto';
 }
-.container{
-    margin: 0 90px;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-gap: 20px;
-}
 /* HEADER */
+.container{
+    padding: 20px 90px 0 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
 header .container{
     align-items: center;
     color: white;
-    margin-top: 20px;
 }
 header .container a{
     text-decoration: none;
@@ -108,6 +108,7 @@ header span:nth-of-type(4){
 #home{
     background-image: url(assets/img/anime-samurai-girl-katana-forest-bamboo-torii-warrior-gloves-armor-ponytail-31087.jpeg);
     background-position: center;
+    background-size:cover;
     height: 100vh;
     position: relative;
     top: -83px;
@@ -115,12 +116,120 @@ header span:nth-of-type(4){
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -83px;
+    zoom: reset;
 }
 #home #logoHome{
-    width: 460px;
+    width: 50vh;
 }
 #home #arrowsHome{
     position: absolute;
     bottom: 30px;
     animation: float 3s ease-in-out infinite;
+}
+/* ACTUS */
+#actus{
+    height: 100vh;
+    background-color: #050806;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+}
+#containerTopActus{
+    display: flex;
+    flex-direction: row;
+}
+#colonneActus{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 2;
+    margin: 10px;
+    position: relative;
+}
+#colonneActus img{
+    width: 150px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+#colonneActus .littleActus:nth-of-type(2) img{
+    top: -10px;
+}
+#colonneActus .boxTextColonne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    background-color: #000;
+    height: 35px;
+    width: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 0 5px;
+}
+#actus1{
+    height: 600px;
+    width: 940px;
+    background-image: url(assets/img/uzumaki-naruto-big-smile-konoha-village-naruto-anime.jpeg);
+    background-size: cover;
+    margin: 10px;
+    position: relative;
+}
+div#actus1 img {
+    width: 300px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+div#actus1 #boxTextActus1 {
+    background-color: #000;
+    height: 130px;
+    width: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+div#actus1 #boxTextActus1 p{
+    color: #fff;
+    font-size: 48px;
+}
+.littleActus{
+    height: 187px;
+    width: 300px;
+    background-size: cover;
+    position: relative;
+}
+.littleActus:first-child{
+    background-image: url(assets/img/jujutsu.jpg);
+}
+.littleActus:nth-of-type(2){
+    background-image: url(assets/img/bc.jpg);
+}
+.littleActus:nth-of-type(3){
+    background-image: url(assets/img/ippo.jpg);
+}
+#actus1, div.littleActus{
+    border: 5px solid #7E120B;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.direct{
+    grid-column: span 2;
+    border: 5px solid #7E120B;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 1260px;
+    height: 187px;
+    margin: 10px;
 }
