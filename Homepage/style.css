@@ -355,10 +355,8 @@ div#actus1 #boxTextActus1 p{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#topContainer{
-    display: flex;
     flex-direction: column;
+    padding: 0 90px;
 }
 #topContainerPanel{
     border: 5px solid #000;
@@ -372,42 +370,131 @@ div#actus1 #boxTextActus1 p{
     height: 270px;
     width: 1260px;
     overflow: hidden;
+    position: relative;
 }
 #topContainerPanel > .topLine:first-child{
     border-bottom: 3px solid #000;
 }
 .topLine > div{
     width: 420px;
-}
-#topContainerPanel > .topLine:first-child > div:nth-of-type(1){
-    border: 3px solid #000;
-    transform: rotateZ(135deg);
-    width: 1100px;
-    height: 700px;
-    position: relative;
-    top: -106px;
-    left: -100px;
     overflow: hidden;
+    height: 270px;
 }
-#topContainerPanel > .topLine:first-child > div:nth-of-type(1) img{
-    height: 550px;
-    right: 125px;
-    transform: rotateZ(-135deg);
+.topLine div img{
+    height: 200px;
+}
+/* TOP > Panels */
+/* Ligne du haut */
+/* Div au centre */
+.topLine:first-child div:first-child{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    height: 270px;
+}
+.topLine:first-child div:first-child div{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+.topLine:first-child div:first-child div span:first-child{
+    font-size: 24px;
+}
+.topLine:first-child div:first-child div span:nth-of-type(2){
+    font-size: 72px;
+}
+.topLine:first-child div:first-child div span:nth-of-type(3){
+    font-size: 144px;
     position: relative;
-    top: 60px;
+    top: -20px;
 }
-#topContainerPanel > .topLine:first-child > div:nth-of-type(2){
-    z-index: -1;
-}
-#topContainerPanel > .topLine:first-child > div:nth-of-type(3){
+/* Div de gauche */
+.topLine:first-child div:nth-of-type(2){
+    position: absolute;
+    left: -90px;
     border: 3px solid #000;
+    background-color: #000;
+    height: 400px;
+    width: 600px;
     transform: rotateZ(45deg);
-    width: 1100px;
-    height: 700px;
-    position: relative;
-    top: -106px;
-    right: -100px;
 }
+.topLine:first-child div:nth-of-type(2) img{
+    transform: rotateZ(-45deg);
+    height: 450px;
+    position: relative;
+    top: -40px;
+    right: -20px;
+}
+/* Dic de droite */
+.topLine:first-child div:nth-of-type(3){
+    position: absolute;
+    right: -90px;
+    border: 3px solid #000;
+    background-color: #000;
+    height: 400px;
+    width: 600px;
+    transform: rotateZ(-45deg);
+}
+.topLine:first-child div:nth-of-type(3) img{
+    transform: rotateZ(45deg);
+    height: 450px;
+    position: relative;
+    top: 15px;
+    right: 90px;
+}
+/* Ligne du Bas */
+/* Div au centre */
+.topLine:nth-of-type(2) div:first-child{
+    position: absolute;
+    left: 50%;
+    width: 800px;
+    transform: translateX(-50%);
+}
+.topLine:nth-of-type(2) div:first-child img{
+    height: 425px;
+    position: relative;
+    left: 60px;
+}
+/* Div de gauche */
+.topLine:nth-of-type(2) div:nth-of-type(2){
+    transform: rotateZ(-45deg);
+    position: absolute;
+    border: 3px solid #000;
+    background-color: #000;
+    height: 400px;
+    width: 600px;
+    top: -136px;
+    left: -90px;
+}
+.topLine:nth-of-type(2) div:nth-of-type(2) img{
+    transform: rotateZ(45deg);
+    height: 325px;
+    position: relative;
+    top: 115px;
+    left: 20px;
+}
+/* Div de droite */
+.topLine:nth-of-type(2) div:nth-of-type(3){
+    position: absolute;
+    transform: rotateZ(45deg);
+    border: 3px solid #000;
+    background-color: #000;
+    height: 400px;
+    width: 600px;
+    top: -136px;
+    right: -90px;
+}
+.topLine:nth-of-type(2) div:nth-of-type(3) img{
+    transform: rotateZ(-45deg);
+    position: relative;
+    height: 400px;
+    top: 80px;
+    right: -25px;
+}
+/* TOP > Liens */
 #topLink{
     display: flex;
     flex-direction: row;
@@ -426,4 +513,48 @@ div#actus1 #boxTextActus1 p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* FOOTER */
+footer{
+    height: 30vh;
+    background-color: #050806;
+    padding: 0 90px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1260px;
+    margin-top: 40px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+footer > div > div > span:first-child{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.lineFooter{
+    border: 1px solid #7E120B;
+    width: 300px;
+    margin-bottom: 5px;
+}
+footer ul li {
+    margin-top: 5px;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+span#copyright{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    font-size: 14px;
 }
