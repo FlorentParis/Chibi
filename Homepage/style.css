@@ -16,23 +16,54 @@ header .container{
     align-items: center;
     color: white;
 }
+header .container #links{
+    width: 55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 header .container a{
     text-decoration: none;
     color: white;
-    transition: all 0.1s;
 }
 header .container a:hover{
-    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    transition: all 1s;
 }
-#research{
+#searchBox{
     justify-self: center;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+    position: absolute;
+    right: 18vw;
+    transition: all 1s;
+    overflow: hidden;
+}
+#searchBox #research{
     background-color: transparent;
-    border: 2px solid white;
-    height: 30px;
-    width: 180px;
+    border: transparent;
     outline: none;
     color: white;
     font-weight: 700;
+    display: none;
+}
+#searchBox:hover{
+    width: 220px;
+}
+#searchBox:hover #research{
+    height: 30px;
+    width: 180px;
+    display: flex;
+}
+#searchBox img{
+    width: 20px;
+    position: absolute;
+    right: 10px;
 }
 #research::placeholder{
     color: white;
