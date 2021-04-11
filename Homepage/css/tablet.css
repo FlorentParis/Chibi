@@ -1,0 +1,42 @@
+@media (max-width: 600px){
+    #actus, #top5, .lineFooter{
+        display: none;
+    }
+    header .container{
+        height: 100vh;
+        background-color: rgb(126,18,11);
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+    }
+    header .container #links{
+        flex-direction: column;
+        width: auto;
+        height: 50vh;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20vh;
+    }
+    #searchBox{
+        display: none;
+    }
+    #profil{
+        position: absolute;
+        top: 5vh;
+    }
+    #LineMenuResp::before{
+        content: "Cliquer pour agrandir";
+        position: relative;
+        top: -20px;
+    }
+    #LineMenuResp{
+        height: 1px;
+        width: 80vw;
+        background-color: #fff;
+        position: absolute;
+        top: 25vh;
+    }
+}
