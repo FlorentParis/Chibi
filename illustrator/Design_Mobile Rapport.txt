@@ -1,0 +1,101 @@
+Rapport d'assemblage
+
+-----------------------------------------------------------------------------
+Document :
+Nom : Design_Mobile.ai
+Mode : Couleurs RVB
+Profil colorimétrique : sRGB IEC61966-2.1
+Unité : pixels
+Dimensions : 1125 px x 2436 px
+Afficher les images en mode Tracés : INACTIF
+Mettre en évidence les polices substituées : INACTIF
+Mettre en évidence les glyphes substitués : INACTIF
+Conserver le caractère modifiable du texte
+Simuler le papier couleur : INACTIF
+
+-----------------------------------------------------------------------------
+Objets en tons directs :
+
+-----------------------------------------------------------------------------
+Polices manquantes :SANS
+
+-----------------------------------------------------------------------------
+Polices protégées non assemblées :
+Roboto Bold (Polices Adobe)
+
+-----------------------------------------------------------------------------
+Polices :
+SANS
+
+-----------------------------------------------------------------------------
+Polices incorporées :
+SANS
+
+-----------------------------------------------------------------------------
+Liens manquants :
+SANS
+
+-----------------------------------------------------------------------------
+Images liées :
+
+C:\Users\symch\Desktop\Intersection 7.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 337K, 240 x 360 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 72 pixels par pouce
+
+
+C:\Users\symch\Desktop\Intersection 8.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 337K, 240 x 360 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 72 pixels par pouce
+
+
+C:\Users\symch\Desktop\Intersection 10.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 337K, 240 x 360 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 72 pixels par pouce
+
+
+C:\Users\symch\Desktop\Intersection 12.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 337K, 240 x 360 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 72 pixels par pouce
+
+
+C:\Users\symch\Desktop\ss.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 338K, 240 x 361 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 72,2 pixels par pouce
+
+
+C:\Users\symch\Desktop\Intersection 13.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 336K, 240 x 359 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 71,8 pixels par pouce
+
+
+C:\Users\symch\Desktop\Intersection 9.png
+Type : RVB transparent
+Bits par pixel : 32
+Couches : 4
+Taille : 337K, 240 x 360 pixels
+Dimensions : 240 x 360 points 
+Résolution : 72 x 72 pixels par pouce
